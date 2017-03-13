@@ -1201,3 +1201,29 @@ img {
 .cycle-pager-active {
   background-color: #e5511b;
 }
+
+/* ======================== Responsive Logo & Google Maps =============================== */
+
+header .navigation .navbar-header .navbar-brand a img {
+  width: 120px;
+  height: 50px;
+}
+
+@media(max-width:770px){
+  header .navigation .navbar-header .navbar-brand a img {
+    width: 80px;
+    height: 30px;
+  }
+}
+
+.container .col-md-7 .map #google-map iframe {
+  width: 600px;
+  height: 400px;
+}
+
+@media(max-width:300px){
+  .container .col-md-7 .map #google-map iframe {
+    width: 230px;
+    height: 400px;
+  }
+}
