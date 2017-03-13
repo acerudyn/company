@@ -1227,3 +1227,10 @@ header .navigation .navbar-header .navbar-brand a img {
     height: 400px;
   }
 }
+
+@media(max-width:900px){
+  .container .col-md-7 .map #google-map iframe {
+    width: 4000px;
+    height: 400px;
+  }
+}
